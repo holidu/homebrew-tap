@@ -1,6 +1,6 @@
 cask "litellm-oidc-proxy" do
-  version "1.0.29"
-  sha256 "46062a5a31f5e941dc33ff4d76e72b5e1269eb226307bc83700cb29d88e94229"
+  version "1.1.30"
+  sha256 "80bb34503709a604ae99decd2c7e871b76c4b596ea70f7fea1ca2d55de36c9a2"
 
   # GitHub releases from public repository
   url "https://github.com/ohm-s/litellm-oidc-proxy/releases/download/v#{version}/litellm-oidc-proxy-v#{version}.zip"
@@ -42,10 +42,13 @@ cask "litellm-oidc-proxy" do
       • Request/response logging with SQL query interface
       • Rate limit management and recovery
       • Multiple proxy modes (LiteLLM, Anthropic direct, Custom)
+      • Git worktree management with Ctrl+W/Ctrl+D shortcuts
+      • Enhanced terminal with Shift+Enter multi-line support
 
       Version Information:
-      • New versioning scheme: #{version} (version 1.0, build 29)
-      • Comprehensive logging system with ~/Library/Logs/ integration
+      • Version: #{version} (version 1.1, build 30)
+      • Comprehensive git worktree creation and deletion
+      • Enhanced terminal key event handling
       • Properly signed with Developer ID certificate
       • Native Apple Silicon support
 
