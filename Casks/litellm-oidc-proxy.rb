@@ -1,6 +1,6 @@
 cask "litellm-oidc-proxy" do
-  version "1.0.25"
-  sha256 "4291745736675464f151e67bebfbdb7353ccab193810acacc2108329fc301de7"
+  version "1.0.26"
+  sha256 "444a473275da56ee436c417f82ebd8e2edbdbee561da5087feb2324578d56967"
 
   # GitHub releases from public repository
   url "https://github.com/ohm-s/litellm-oidc-proxy/releases/download/v#{version}/litellm-oidc-proxy-v#{version}.zip"
