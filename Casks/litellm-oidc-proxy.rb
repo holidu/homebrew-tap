@@ -1,6 +1,6 @@
 cask "litellm-oidc-proxy" do
-  version "1.0.23"
-  sha256 "3fdca9cde8d48f92bacf56e0aed3a76fbbd9bea118ba478c23469001bc6661a7"
+  version "1.0.24"
+  sha256 "a96da508df75832d3af14b5b63345b26bed484d297e202d846125e5f9b3056d7"
 
   # GitHub releases from public repository
   url "https://github.com/ohm-s/litellm-oidc-proxy/releases/download/v#{version}/litellm-oidc-proxy-v#{version}.zip"
@@ -44,7 +44,8 @@ cask "litellm-oidc-proxy" do
       • Multiple proxy modes (LiteLLM, Anthropic direct, Custom)
 
       Version Information:
-      • New versioning scheme: #{version} (version 1.0, build 23)
+      • New versioning scheme: #{version} (version 1.0, build 24)
+      • Comprehensive logging system with ~/Library/Logs/ integration
       • Properly signed with Developer ID certificate
       • Native Apple Silicon support
 
