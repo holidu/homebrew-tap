@@ -1,6 +1,6 @@
 cask "litellm-oidc-proxy" do
-  version "1.1.30"
-  sha256 "80bb34503709a604ae99decd2c7e871b76c4b596ea70f7fea1ca2d55de36c9a2"
+  version "1.1.31"
+  sha256 "a66814ad3c8561ca4f82302dbe01da72323bd1653887fc30e251655aadf51d6a"
 
   # GitHub releases from public repository
   url "https://github.com/ohm-s/litellm-oidc-proxy/releases/download/v#{version}/litellm-oidc-proxy-v#{version}.zip"
@@ -46,9 +46,10 @@ cask "litellm-oidc-proxy" do
       • Enhanced terminal with Shift+Enter multi-line support
 
       Version Information:
-      • Version: #{version} (version 1.1, build 30)
-      • Comprehensive git worktree creation and deletion
-      • Enhanced terminal key event handling
+      • Version: #{version} (version 1.1, build 31)
+      • Fixed Claude Code process cleanup when terminal windows close
+      • Improved process termination and resource management
+      • Enhanced terminal coordinator cleanup
       • Properly signed with Developer ID certificate
       • Native Apple Silicon support
 
