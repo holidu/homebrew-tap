@@ -1,6 +1,6 @@
 cask "litellm-oidc-proxy" do
-  version "1.1.31"
-  sha256 "a66814ad3c8561ca4f82302dbe01da72323bd1653887fc30e251655aadf51d6a"
+  version "1.0.32"
+  sha256 "d7fa48d8c89913358f862574dda665bf24f631a2458bbf5245b3a0f59019c738"
 
   # GitHub releases from public repository
   url "https://github.com/ohm-s/litellm-oidc-proxy/releases/download/v#{version}/litellm-oidc-proxy-v#{version}.zip"
@@ -46,10 +46,11 @@ cask "litellm-oidc-proxy" do
       • Enhanced terminal with Shift+Enter multi-line support
 
       Version Information:
-      • Version: #{version} (version 1.1, build 31)
-      • Fixed Claude Code process cleanup when terminal windows close
-      • Improved process termination and resource management
-      • Enhanced terminal coordinator cleanup
+      • Version: #{version} (version 1.0, build 32)
+      • Enhanced Claude Terminal Launcher path autocomplete and navigation
+      • Improved autocomplete suggestion logic to use selected search results
+      • Better path-based autocomplete for directory navigation
+      • Support Control+W git worktree operations on search results and path suggestions
       • Properly signed with Developer ID certificate
       • Native Apple Silicon support
 
