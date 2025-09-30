@@ -1,6 +1,6 @@
 cask "litellm-oidc-proxy" do
-  version "1.0.33"
-  sha256 "951a1c8465808a10d13eb06ff6f108423d54641369d9733b86b714ed472c79dd"
+  version "1.0.34"
+  sha256 "0fb9195470616f44f451c7dc01aee9d71fb9dfef12c9b7b93f656786b066f35b"
 
   # GitHub releases from public repository
   url "https://github.com/ohm-s/litellm-oidc-proxy/releases/download/v#{version}/litellm-oidc-proxy-v#{version}.zip"
@@ -46,7 +46,7 @@ cask "litellm-oidc-proxy" do
       • Enhanced terminal with Shift+Enter multi-line support
 
       Version Information:
-      • Version: #{version} (version 1.0, build 33)
+      • Version: #{version} (version 1.0, build 34)
       • Terminal URL Clicking: Click on URLs in Claude Code terminal to open in browser
       • Smart URL detection with visual cursor changes and robust parsing
       • Reduced SwiftTerm logging noise for cleaner console output
